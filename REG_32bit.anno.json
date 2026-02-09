@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~REG_32bit|REG_32bit>io_REG_READ1",
+    "sources":[
+      "~REG_32bit|REG_32bit>io_REG_Read1_Addr"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~REG_32bit|REG_32bit>io_REG_READ2",
+    "sources":[
+      "~REG_32bit|REG_32bit>io_REG_Read2_Addr"
+    ]
+  }
+]
